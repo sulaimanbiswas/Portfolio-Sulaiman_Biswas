@@ -1,0 +1,822 @@
+
+
+/*header area*/
+@media (max-width:992px){
+    header{
+
+        background:#343436;
+       
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/toggle-icone-bar.png");
+        height: 15px;
+        width: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-item.current a {
+        color: #fb5200!important;
+       border:none!important;
+        transition:0.5s;
+    }
+    .navbar .navbar-brand{
+
+        font-family: 'Open Sans', sans-serif;
+        font-size:35px;
+        font-weight: 600;
+        color:white!important;
+    }
+    .navbar-nav{
+
+        text-align: center;
+        
+    }
+    .navbar-toggler:focus, .navbar-toggler:hover {
+        text-decoration: none;
+        border: none !important;
+        outline: none;
+        
+    }
+    
+    .navbar-nav .nav-item .nav-link {
+        color: white;
+      
+    }
+    
+    .navbar-nav .nav-item .nav-link:hover.nav-link::after{
+
+        transform:scaleX(0);
+    }
+    .right-side-social-icon li a {
+        text-align: center!important;
+        padding-top: 22px !important;
+        color:white;     
+}
+.right-side-social-icon{
+
+    text-align: center;
+}
+
+/*********************************Resume started here***************************************************/
+#my-resume .resume-paragraph p {
+    color: #9b9b9b;
+    line-height: 25px;
+}
+#my-resume .resume-paragraph {
+    padding: 13px;
+}
+/****************************************************************************
+*************************************************************************************************
+***********counter stated here********************/
+#counter-area .counter-1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+}
+/*header area ended*/
+
+
+
+/*********************************************************************************************
+********************************
+****************************
+*******************
+************/
+
+
+/*slider area stated*/
+
+@media (max-width:1200px){
+
+    #slider-area{
+
+        background: url('../images/slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        
+    }
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 80px;
+        letter-spacing: 3px;
+        margin-left:65px;
+    }
+
+    #slider-area .my-status {
+        width: 60%;
+        height: 50px;
+        background: #404141;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+
+/*about-me*/
+/***************************
+************************************
+********************/
+#about-me {
+    background: #343436;
+    width: 100%;
+   
+    padding-bottom: 50px;
+}
+#about-me .right-main-contact-info .contact-info {
+    max-width: 100%;
+    height: 100%;
+    background: #2f2f31;
+    border: 1px solid #2b2b2d;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    font-size: 14px;
+}
+#about-me .social-icone-info span {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: #9b9b9b;
+    padding-right: 70px;
+    position: relative;
+    font-size: 17px;
+}
+#about-me .social-icone-info ul li a {
+    display: inline-block;
+    padding: 0 11px;
+    color: #9b9b9b;
+    font-size: 18px;
+    transition: 0.5s;
+}
+/**********************************************************************************
+**************************************************************************************/
+/***********************************************My protfolio section***********************/
+#protfolio .my-profolio-hover-headline {
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 46px;
+    position: relative;
+    padding-left: 46px;
+    transform: translateX(120px);
+    transition: 0.5s;
+}
+/******************************************************
+*******scrollup*******************/
+.btn-12 {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #fb5200;
+    color: white;
+    padding: 5px 10px;
+    bottom: 5%;
+    right: 1%;
+    transition: 1s;
+    display: none;
+    z-index: 111;
+}
+}
+@media (max-width:992px){
+    #slider-area{
+        background: url('../images/slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top:77px;
+    }
+
+    #slider-area .my-status {
+        width: 80%;
+        height: 50px;
+        background: #404141c9;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+    #slider-area .heading {
+        margin-top: 50px;
+        position: relative;
+    }
+    /*about-me stated here*/
+    /* ************************************* */
+    #about-me {
+        background: #343436;
+        width: 100%;
+
+        padding-bottom: 50px;
+    }
+    #about-me .image-section img {
+        max-width: 100%;
+        padding-right: 0px;
+        padding-top: 85px;
+    }
+
+
+/*************My protfolio*******************/
+#protfolio .my-profolio-hover-headline::after {
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: -18px;
+    width: 46px;
+    height: 3px;
+    background: #fb5200;
+    position: relative;
+    display: block;
+}
+#protfolio .my-profolio-hover-headline {
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 75px;
+    position: relative;
+    padding-left: 46px;
+    transform: translateX(120px);
+    transition: 0.5s;
+}
+
+/******************************************************************************
+********************contact us*******************************************/
+
+#contact-us .main-contact-form .input-1, #contact-us .main-contact-form .input-2 {
+    background: none;
+    border: none;
+    outline: none;
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    width: 93%;
+    padding: 18px 25px;
+    font-size: 22px;
+    margin-top: 54px;
+    margin-left: 34px;
+}
+#contact-us .main-contact-form .input-3 {
+    background: none;
+    border: none;
+    outline: none;
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    width: 93%;
+    padding: 18px 25px;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-left: 34px;
+    overflow: hidden;
+}
+#contact-us .mytextcomment {
+    background: none;
+    border: none;
+    outline: none;
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    width: 93%;
+    padding: 18px 25px;
+        padding-bottom: 18px;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-left: 34px;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+#contact-us .send-message {
+    width: 93%;
+    background: none;
+    text-align: center;
+    background: #fb5200;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+        margin-top: auto;
+        margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-left: 35px;
+    padding: 22px 0px;
+    margin-top: 23px;
+    transition: 0.5s;
+}
+}
+@media (max-width:768px){
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 50px;
+        letter-spacing: 3px;
+        margin-left: 0px;
+    }
+    #slider-area .heading::after{
+
+        content:'';
+        position: absolute;
+        width:50px;
+        height:6px;
+        background:#fb5200;
+        top:38px;
+        left:0;
+        display:none;
+    
+    }
+    #slider-area .my-status {
+        width: 100%;
+        height: 50px;
+        background: #404141;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    #slider-area .my-status ul li span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 23px;
+        position: relative;
+        color: #E4D1D1;
+        font-weight: 600;
+    }
+    #slider-area .button {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+/*aboute me started here*/
+/******************************
+************************************
+***************************************/
+
+#about-me {
+    background: #343436;
+    width: 100%;
+
+    padding-bottom: 50px;
+}
+
+#my-resume .downoad-reasum {
+    text-align: center;
+}
+/******************************************************************************************
+***********************My protfolio**********************/
+#protfolio .my-profolio-hover-headline {
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 133px;
+    position: relative;
+    padding-left: 46px;
+    transform: translateX(120px);
+    transition: 0.5s;
+}
+#protfolio .my-profolio-hover-headline::after {
+    content: '';
+    position: absolute;
+    top: -26px;
+    left: -14px;
+    width: 46px;
+    height: 3px;
+    background: #fb5200;
+    position: relative;
+    display: block;
+}
+/***************************************************************************
+**************contact me********************************/
+#contact-us .main-contact-form .input-1, #contact-us .main-contact-form .input-2 {
+    background: none;
+    border: none;
+    outline: none;
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    width: 88%;
+    padding: 18px 25px;
+    font-size: 22px;
+    margin-top: 54px;
+    margin-left: 34px;
+}
+#contact-us .main-contact-form .input-3 {
+    background: none;
+    border: none;
+    outline: none;
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    width: 88%;
+    padding: 18px 25px;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-left: 34px;
+    overflow: hidden;
+}
+
+/******************************************************************************
+************contact me******************************/
+#contact-us .mytextcomment {
+    background: none;
+    border: none;
+    outline: none;
+    background: #2f2f31;
+    border: 1px solid #29292d;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    width: 88%;
+    padding: 18px 25px;
+        padding-bottom: 18px;
+    padding-bottom: 18px;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-left: 34px;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+#contact-us .send-message {
+    width: 88%;
+    background: none;
+    text-align: center;
+    background: #fb5200;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+        margin-top: auto;
+        margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-left: 35px;
+    padding: 22px 0px;
+    margin-top: 23px;
+    transition: 0.5s;
+}
+}
+
+
+   
+@media(max-width:576px){
+
+    #slider-area{
+
+        background: url('../images/slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      background-attachment: fixed;
+        background-position: center center;
+    
+    }
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        margin-left: 0;
+    }
+
+    /*about me*/
+/***************************************************
+***********************************************************************************************************
+**/
+
+#about-me {
+    background: #343436;
+    width: 100%;
+  
+    padding-bottom: 50px;
+}
+}
+@media (max-width:520px){
+
+    #slider-area .my-status ul li span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 15px;
+        position: relative;
+        color: #E4D1D1;
+        font-weight: 600;
+      
+    }
+
+/**********************************************************************************************
+*************my proftolio menu bar***************************/
+#protfolio .button-group button {
+    background: none;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-right: 15px;
+    position: relative;
+    transition: 0.5s;
+    font-size: 14px;
+}
+}
+@media (max-width:476px){
+    #about-me {
+        background: #343436;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #about-me .second-col {
+        padding-top: 0px;
+        padding-left: 34px;
+        z-index: 1;
+    }
+    #about-me .right-main-contact-info .contact-info {
+        max-width: 100%;
+        height: 316px;
+        background: #2f2f31;
+        border: 1px solid #2b2b2d;
+        position: relative;
+        margin-top: 50px;
+        font-size: 13px;
+        display: block;
+    }
+    #about-me .social-icone-info span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        color: #9b9b9b;
+        padding-right: 70px;
+        position: relative;
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    #about-me .social-icone-info {
+        display: flex;
+        padding-top: 60px;
+        display: block;
+        text-align: center;
+    }
+    #about-me .social-icone-info {
+        display: flex;
+        padding-top: 35px;
+        display: block;
+        text-align: center;
+    }
+
+
+/******************************************************
+*****************************my protfolio**********************/
+#protfolio .my-profolio-hover-headline::after {
+    content: '';
+    position: absolute;
+    top: -24px;
+    left: -14px;
+    width: 46px;
+    height: 3px;
+    background: #fb5200;
+    position: relative;
+    display: block;
+}
+#protfolio .my-profolio-hover-headline {
+    display: inline-block;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 125px;
+    position: relative;
+    padding-left: 46px;
+    transform: translateX(120px);
+    transition: 0.5s;
+}
+/***********************************************************
+**************owl carosel********************************/
+#my-happy-clients .clents-name-1 {
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+#my-happy-clients .clents-name-1 {
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+}
+
+@media (max-width:470px){
+    #slider-area .my-status ul li span {
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0px 10px;
+        position: relative;
+        color: #E4D1D1;
+        font-weight: 600;
+    }
+ /***************************************************************
+ contact me*********************************/
+ footer .social-icone-info-footer ul li a {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 7px;
+    font-size: 21px;
+    color: #fff !important;
+    transition: 0.5s;
+    margin: 18px 5px;
+}
+footer .footer-finished p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+}
+@media (max-width:439px){
+    #slider-area .my-status {
+        width: 100%;
+        height: 98px;
+        background: #404141b3;
+        margin-left: 0px;
+    
+        }
+        /******************************************************************************
+        **********my protfolio**************/
+        #protfolio .my-profolio-hover-headline::after {
+            content: '';
+            position: absolute;
+            top: -13px;
+left: -27px;
+            width: 45px;
+            height: 3px;
+            background: #fb5200;
+            position: relative;
+            display: block;
+        }
+        #protfolio .my-profolio-hover-headline {
+            display: inline-block;
+            font-size: 17px;
+            letter-spacing: 2px;
+            color: #fff;
+            text-align: center;
+            padding-top: 101px;
+            position: relative;
+            padding-left: 46px;
+            transform: translateX(120px);
+            transition: 0.5s;
+        }
+        /*****************************************************************
+        ***************owl carosel*******************************/
+
+        #my-happy-clients .clents-headline {
+            margin-top: 29px;
+            margin-left: 2px;
+            text-align: center;
+        }
+        #my-happy-clients .supper-carosel-headline {
+            display: block;
+        }
+        #my-happy-clients .carosel-image {
+            width: 100px;
+            text-align: center;
+            margin: auto;
+        }
+        #my-happy-clients .clents-name-1 {
+            padding: 5px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #my-happy-clients .clients-subtitle {
+            padding: 6px 21px;
+            color: #fb5200;
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    /*************************************************************************************************
+    *****************contact me***************************************/
+    #contact-us .main-contact-form .input-1, #contact-us .main-contact-form .input-2 {
+        background: none;
+        border: none;
+        outline: none;
+        background: #2f2f31;
+        border: 1px solid #29292d;
+        color: #f9f9f9;
+        font-family: 'Open Sans', sans-serif;
+        width: 88%;
+        padding: 18px 25px;
+        font-size: 22px;
+        margin-top: 54px;
+        margin-left: 21px;
+    }
+    #contact-us .main-contact-form .input-3 {
+        background: none;
+        border: none;
+        outline: none;
+        background: #2f2f31;
+        border: 1px solid #29292d;
+        color: #f9f9f9;
+        font-family: 'Open Sans', sans-serif;
+        width: 88%;
+        padding: 18px 25px;
+        font-size: 22px;
+        margin-top: 35px;
+        margin-left: 21px;
+        overflow: hidden;
+    }
+    #contact-us .mytextcomment {
+        background: none;
+        border: none;
+        outline: none;
+        background: #2f2f31;
+        border: 1px solid #29292d;
+        color: #f9f9f9;
+        font-family: 'Open Sans', sans-serif;
+        width: 88%;
+        padding: 18px 25px;
+            padding-bottom: 18px;
+        padding-bottom: 18px;
+        padding-bottom: 18px;
+        font-size: 22px;
+        margin-top: 35px;
+        margin-left: 21px;
+        overflow: hidden;
+        padding-bottom: 70px;
+    }
+    #contact-us .send-message {
+        width: 88%;
+        background: none;
+        text-align: center;
+        background: #fb5200;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-left: 21px;
+        padding: 22px 0px;
+        margin-top: 23px;
+        transition: 0.5s;
+    }
+    }
+@media (max-width:347px){
+    #slider-area .heading h1 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 0px;
+        line-height: 37px;
+        letter-spacing: 3px;
+        margin-left: 0;
+    }
+
+    /******************************************************************
+    **************contact me***************************/
+    footer .social-icone-info-footer ul li a {
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 7px;
+        font-size: 21px;
+        color: #fff !important;
+        transition: 0.5s;
+        margin: 18px 5px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+}
+@media (max-width:326px){
+
+    #my-resume .my-resume-headline span {
+        color: #fb5200;
+        font-size: 24px;
+    }
+}
