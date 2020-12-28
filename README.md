@@ -1,2 +1,2 @@
 # Sulaiman-Biswas-Portfolio
- This is my protfolio website
+This is a Portfolio Website. This site create only using HTML CSS and JS
